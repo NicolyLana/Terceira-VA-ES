@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @candidatura %>
+
+<div>
+  <%= link_to "Edit this candidatura", edit_candidatura_path(@candidatura) %> |
+  <%= link_to "Back to candidaturas", candidaturas_path %>
+
+  <%= button_to "Destroy this candidatura", @candidatura, method: :delete %>
+</div>

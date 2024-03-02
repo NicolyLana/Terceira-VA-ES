@@ -1,0 +1,32 @@
+<%= form_with(model: candidatura) do |form| %>
+  <% if candidatura.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(candidatura.errors.count, "error") %> prohibited this candidatura from being saved:</h2>
+
+      <ul>
+        <% candidatura.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :candidato_id, style: "display: block" %>
+    <%= form.text_field :candidato_id %>
+  </div>
+
+  <div>
+    <%= form.label :vaga_id, style: "display: block" %>
+    <%= form.text_field :vaga_id %>
+  </div>
+
+  <div>
+    <%= form.label :empregador_id, style: "display: block" %>
+    <%= form.text_field :empregador_id %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
