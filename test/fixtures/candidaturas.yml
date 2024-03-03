@@ -1,11 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  mensagem: MyText
   candidato: one
   vaga: one
   empregador: one
 
 two:
+  mensagem: MyText
   candidato: two
   vaga: two
   empregador: two

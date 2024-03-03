@@ -17,7 +17,7 @@ class CandidaturasControllerTest < ActionDispatch::IntegrationTest
 
   test "should create candidatura" do
     assert_difference("Candidatura.count") do
-      post candidaturas_url, params: { candidatura: { candidato_id: @candidatura.candidato_id, empregador_id: @candidatura.empregador_id, vaga_id: @candidatura.vaga_id } }
+      post candidaturas_url, params: { candidatura: { candidato_id: @candidatura.candidato_id, empregador_id: @candidatura.empregador_id, mensagem: @candidatura.mensagem, vaga_id: @candidatura.vaga_id } }
     end
 
     assert_redirected_to candidatura_url(Candidatura.last)
@@ -34,7 +34,7 @@ class CandidaturasControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update candidatura" do
-    patch candidatura_url(@candidatura), params: { candidatura: { candidato_id: @candidatura.candidato_id, empregador_id: @candidatura.empregador_id, vaga_id: @candidatura.vaga_id } }
+    patch candidatura_url(@candidatura), params: { candidatura: { candidato_id: @candidatura.candidato_id, empregador_id: @candidatura.empregador_id, mensagem: @candidatura.mensagem, vaga_id: @candidatura.vaga_id } }
     assert_redirected_to candidatura_url(@candidatura)
   end
 

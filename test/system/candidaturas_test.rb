@@ -16,6 +16,7 @@ class CandidaturasTest < ApplicationSystemTestCase
 
     fill_in "Candidato", with: @candidatura.candidato_id
     fill_in "Empregador", with: @candidatura.empregador_id
+    fill_in "Mensagem", with: @candidatura.mensagem
     fill_in "Vaga", with: @candidatura.vaga_id
     click_on "Create Candidatura"
 
@@ -29,6 +30,7 @@ class CandidaturasTest < ApplicationSystemTestCase
 
     fill_in "Candidato", with: @candidatura.candidato_id
     fill_in "Empregador", with: @candidatura.empregador_id
+    fill_in "Mensagem", with: @candidatura.mensagem
     fill_in "Vaga", with: @candidatura.vaga_id
     click_on "Update Candidatura"
 

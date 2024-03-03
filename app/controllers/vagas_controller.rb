@@ -65,6 +65,6 @@ class VagasController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def vaga_params
-      params.require(:vaga).permit(:nome, :descricao, :salario)
+      params.require(:vaga).permit(:nome, :descricao, :salario, :empregador_id)
     end
 end

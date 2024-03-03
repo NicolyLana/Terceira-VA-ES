@@ -17,7 +17,7 @@ class VagasControllerTest < ActionDispatch::IntegrationTest
 
   test "should create vaga" do
     assert_difference("Vaga.count") do
-      post vagas_url, params: { vaga: { descricao: @vaga.descricao, nome: @vaga.nome, salario: @vaga.salario } }
+      post vagas_url, params: { vaga: { descricao: @vaga.descricao, empregador_id: @vaga.empregador_id, nome: @vaga.nome, salario: @vaga.salario } }
     end
 
     assert_redirected_to vaga_url(Vaga.last)
@@ -34,7 +34,7 @@ class VagasControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update vaga" do
-    patch vaga_url(@vaga), params: { vaga: { descricao: @vaga.descricao, nome: @vaga.nome, salario: @vaga.salario } }
+    patch vaga_url(@vaga), params: { vaga: { descricao: @vaga.descricao, empregador_id: @vaga.empregador_id, nome: @vaga.nome, salario: @vaga.salario } }
     assert_redirected_to vaga_url(@vaga)
   end
 

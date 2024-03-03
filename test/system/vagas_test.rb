@@ -15,6 +15,7 @@ class VagasTest < ApplicationSystemTestCase
     click_on "New vaga"
 
     fill_in "Descricao", with: @vaga.descricao
+    fill_in "Empregador", with: @vaga.empregador_id
     fill_in "Nome", with: @vaga.nome
     fill_in "Salario", with: @vaga.salario
     click_on "Create Vaga"
@@ -28,6 +29,7 @@ class VagasTest < ApplicationSystemTestCase
     click_on "Edit this vaga", match: :first
 
     fill_in "Descricao", with: @vaga.descricao
+    fill_in "Empregador", with: @vaga.empregador_id
     fill_in "Nome", with: @vaga.nome
     fill_in "Salario", with: @vaga.salario
     click_on "Update Vaga"
