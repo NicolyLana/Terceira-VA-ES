@@ -16,8 +16,11 @@ class VagaTest < ActiveSupport::TestCase
                                 endereco: 'Rua acostamento, 657', telefone: '11948842332', cnpj: '51.489.289/0001-95'
     assert empregador.save
 
-    vaga = Vaga.new nome: 'Dev pleno', descricao: '', salario: 'aqui', empregador_id: empregador.id
+    vaga = Vaga.new nome: 'Dev pleno', descricao: 'Vaga para dev', salario: '8000', empregador_id: empregador.id
+    assert vaga.save
 
+    vaga.descricao = ''
+    vaga.salario = 'aqui'
     assert_not vaga.save
   end
 end
