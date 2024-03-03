@@ -13,20 +13,21 @@
 
   <div>
     <%= form.label :candidato_id, style: "display: block" %>
-    <%= form.text_field :candidato_id %>
+    <%= form.collection_select :candidato_id, Candidato.all, :id, :nome, prompt: "Selecione um candidato" %>
   </div>
 
   <div>
     <%= form.label :vaga_id, style: "display: block" %>
-    <%= form.text_field :vaga_id %>
+    <%= form.collection_select :vaga_id, Vaga.all, :id, :nome, prompt: "Selecione uma vaga" %>
   </div>
 
   <div>
     <%= form.label :empregador_id, style: "display: block" %>
-    <%= form.text_field :empregador_id %>
+    <%= form.collection_select :empregador_id, Empregador.all, :id, :nomeEmpresa, prompt: "Selecione um empregador" %>
   </div>
 
   <div>
-    <%= form.submit %>
+    <br>
+    <button type="submit">Salvar</button>
   </div>
 <% end %>

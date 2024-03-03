@@ -6,9 +6,9 @@
   <% @candidaturas.each do |candidatura| %>
     <%= render candidatura %>
     <p>
-      <%= link_to "Show this candidatura", candidatura %>
+      <%= link_to "Detalhes da candidatura", candidatura %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New candidatura", new_candidatura_path %>
+<%= link_to "Nova candidatura", new_candidatura_path %>

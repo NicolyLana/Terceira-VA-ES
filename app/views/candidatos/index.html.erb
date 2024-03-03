@@ -6,9 +6,9 @@
   <% @candidatos.each do |candidato| %>
     <%= render candidato %>
     <p>
-      <%= link_to "Show this candidato", candidato %>
+      <%= link_to "Detalhes do candidato", candidato %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New candidato", new_candidato_path %>
+<%= link_to "Novo candidato", new_candidato_path %>

@@ -25,7 +25,7 @@ class VagasController < ApplicationController
 
     respond_to do |format|
       if @vaga.save
-        format.html { redirect_to vaga_url(@vaga), notice: "Vaga was successfully created." }
+        format.html { redirect_to vaga_url(@vaga), notice: "Vaga cadastrada com sucesso." }
         format.json { render :show, status: :created, location: @vaga }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -38,7 +38,7 @@ class VagasController < ApplicationController
   def update
     respond_to do |format|
       if @vaga.update(vaga_params)
-        format.html { redirect_to vaga_url(@vaga), notice: "Vaga was successfully updated." }
+        format.html { redirect_to vaga_url(@vaga), notice: "Vaga editada com sucesso." }
         format.json { render :show, status: :ok, location: @vaga }
       else
         format.html { render :edit, status: :unprocessable_entity }
@@ -52,7 +52,7 @@ class VagasController < ApplicationController
     @vaga.destroy
 
     respond_to do |format|
-      format.html { redirect_to vagas_url, notice: "Vaga was successfully destroyed." }
+      format.html { redirect_to vagas_url, notice: "Vaga deletada com sucesso." }
       format.json { head :no_content }
     end
   end

@@ -3,8 +3,8 @@
 <%= render @vaga %>
 
 <div>
-  <%= link_to "Edit this vaga", edit_vaga_path(@vaga) %> |
-  <%= link_to "Back to vagas", vagas_path %>
+  <%= link_to "Editar", edit_vaga_path(@vaga) %> |
+  <%= link_to "Voltar", vagas_path %>
 
-  <%= button_to "Destroy this vaga", @vaga, method: :delete %>
+  <%= button_to "Deletar", @vaga, method: :delete %>
 </div>

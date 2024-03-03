@@ -3,8 +3,8 @@
 <%= render @candidatura %>
 
 <div>
-  <%= link_to "Edit this candidatura", edit_candidatura_path(@candidatura) %> |
-  <%= link_to "Back to candidaturas", candidaturas_path %>
+  <%= link_to "Editar", edit_candidatura_path(@candidatura) %> |
+  <%= link_to "Voltar", candidaturas_path %>
 
-  <%= button_to "Destroy this candidatura", @candidatura, method: :delete %>
+  <%= button_to "Deletar", @candidatura, method: :delete %>
 </div>
