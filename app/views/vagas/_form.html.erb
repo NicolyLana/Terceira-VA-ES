@@ -1,7 +1,7 @@
 <%= form_with(model: vaga) do |form| %>
   <% if vaga.errors.any? %>
     <div style="color: red">
-      <h2><%= pluralize(vaga.errors.count, "error") %> prohibited this vaga from being saved:</h2>
+      <h2><%= pluralize(vaga.errors.count, "error") %> proibiu que essa vaga fosse salva:</h2>
 
       <ul>
         <% vaga.errors.each do |error| %>

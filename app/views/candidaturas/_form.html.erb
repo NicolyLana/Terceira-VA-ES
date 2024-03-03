@@ -1,7 +1,7 @@
 <%= form_with(model: candidatura) do |form| %>
   <% if candidatura.errors.any? %>
     <div style="color: red">
-      <h2><%= pluralize(candidatura.errors.count, "error") %> prohibited this candidatura from being saved:</h2>
+      <h2><%= pluralize(candidatura.errors.count, "error") %> proibiu que esta candidatura fosse salva:</h2>
 
       <ul>
         <% candidatura.errors.each do |error| %>
