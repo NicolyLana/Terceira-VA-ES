@@ -42,8 +42,7 @@ Given('eu estou na pagina de listagem de candidatos') do
   expect(page).to have_current_path('/candidatos')
 end
 
-Given('clico em "Detalhes do candidato" do candidato {string}') do |nome|
-  candidato = Candidato.find_by(nome: nome)
+Given('clico em Detalhes do candidato do candidato cadastrado') do
   within("#candidatos") do
     find("a", text: "Detalhes do candidato", match: :first).click
   end

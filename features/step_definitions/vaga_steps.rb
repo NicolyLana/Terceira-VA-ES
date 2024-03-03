@@ -100,8 +100,7 @@ When('eu acesso a pagina de edicao da vaga {string}') do |nome|
   visit edit_vaga_path(vaga)
 end
 
-When('eu clico em "Detalhes da vaga" da vaga {string}') do |vaga_nome|
-  vaga = Vaga.find_by(nome: vaga_nome)
+When('eu clico em Detalhes da vaga da vaga cadastrada') do
   within("#vagas") do
     find("a", text: "Detalhes da vaga", match: :first).click
   end

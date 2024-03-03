@@ -27,7 +27,7 @@ Feature: Vaga
   Scenario: Editar vaga com sucesso
     Given que existe uma vaga de titulo: 'Desenvolvedor Ruby', descricao: 'Vaga para desenvolvedor Ruby', salario: '5000' para o empregador "Joao Silva"
     And eu estou na pagina de listagem de vagas
-    When eu clico em "Detalhes da vaga" da vaga "Desenvolvedor Ruby"
+    When eu clico em Detalhes da vaga da vaga cadastrada
     And eu acesso a pagina de edicao da vaga "Desenvolvedor Ruby"
     And eu altero o campo de descricao com "Vaga para desenvolvedor Ruby on Rails"
     And clico em "Salvar"

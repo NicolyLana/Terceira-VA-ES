@@ -17,7 +17,7 @@ Feature: Candidato
   Scenario: Remover candidato com sucesso
     Given que existe um candidato com nome: 'João Ribeiro', email: 'joao.silva@example.com', cpf: '05502727041', data de nascimento '22/02/2002', telefone: '81944444444'
     And eu estou na pagina de listagem de candidatos
-    And clico em "Detalhes do candidato" do candidato "João Ribeiro"
+    And clico em Detalhes do candidato do candidato cadastrado
     When eu clico no botão "Deletar"
     Then vejo a mensagem "Candidato deletado com sucesso."
 
