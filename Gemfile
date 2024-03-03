@@ -69,4 +69,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+
+  gem 'rspec'
+  gem 'rspec-expectations'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
