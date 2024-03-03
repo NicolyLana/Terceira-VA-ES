@@ -28,7 +28,7 @@
 
   <div>
     <%= form.label :empregador_id, style: "display: block" %>
-    <%= form.collection_select :empregador_id, Empregador.all, :id, :nomeEmpresa, prompt: "Selecione um empregador" %>
+    <%= form.collection_select :empregador_id, Empregador.all, :id, :nome, prompt: "Selecione um empregador" %>
   </div>
 
   <div>
