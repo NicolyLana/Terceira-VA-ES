@@ -7,7 +7,7 @@ Given('O empregador de nomeEmpresa: {string}, nome: {string}, endereco: {string}
   fill_in 'empregador[endereco]', with: endereco
   fill_in 'empregador[email]', with: email
   fill_in 'empregador[cnpj]', with: cnpj
-  fill_in 'empregador[telefone]', with: telefone.gsub(/[^\d]/, '') # Remova caracteres não numéricos
+  fill_in 'empregador[telefone]', with: telefone.gsub(/[^\d]/, '')
 
   click_button 'Salvar'
   expect(page).to have_content(nome)
@@ -59,7 +59,7 @@ Given('que existe uma vaga de titulo: {string}, descricao: {string}, salario: {s
   fill_in 'empregador[endereco]', with: 'Rua B, 456'
   fill_in 'empregador[email]', with: 'joao.silva@example.com'
   fill_in 'empregador[cnpj]', with: '98.765.432/0001-99'
-  fill_in 'empregador[telefone]', with: '11444444444' # ou o valor que você deseja
+  fill_in 'empregador[telefone]', with: '11444444444'
 
   click_button 'Salvar'
   expect(page).to have_content(nomeEmpregador)
@@ -79,8 +79,8 @@ end
 
 
 Given('eu estou na pagina de listagem de vagas') do
-  visit '/vagas' # Certifique-se de ajustar o caminho conforme necessário
-  expect(page).to have_current_path('/vagas') # Verifique se a página de listagem de vagas está correta
+  visit '/vagas'
+  expect(page).to have_current_path('/vagas')
 end
 
 
