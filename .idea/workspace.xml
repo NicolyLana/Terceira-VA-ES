@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6912104a-af06-465a-9684-d36845eeda2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidaturas/_candidatura.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/candidaturas/_candidatura.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/candidaturas/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/candidaturas/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/candidatura.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/candidatura.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/candidatura_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/candidatura_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/candidato_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/candidato_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709480377340</updated>
-      <workItem from="1709480378559" duration="21475000" />
+      <workItem from="1709480378559" duration="21956000" />
     </task>
     <servers />
   </component>
