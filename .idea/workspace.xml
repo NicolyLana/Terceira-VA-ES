@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6912104a-af06-465a-9684-d36845eeda2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/test/models/candidatura_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/candidatura_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/candidatura.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/candidatura.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/empregador.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/empregador.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/vaga.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/vaga.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/candidato.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/candidato.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/candidato_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/candidato_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/vaga.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/vaga.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +39,41 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_Tentar_cadastrar_uma_candidatura_com_dados_invalidos">
+  <component name="RunManager" selected="Cucumber.Scenario: Remover vaga com sucesso">
+    <configuration name="Scenario: Remover vaga com sucesso" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="Terceira-VA-ES" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="CUSTOM_SET_OF_FILES" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/features/vaga.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="Remover vaga com sucesso" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="true" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
     <configuration name="Development: Terceira-VA-ES" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="Terceira-VA-ES" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -175,34 +215,6 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_Cadastrar_uma_vaga_com_dados_validos" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
-      <module name="Terceira-VA-ES" />
-      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/models/vaga_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="$MODULE_DIR$/test/models/vaga_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="^test_Cadastrar_uma_vaga_com_dados_validos$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_Tentar_cadastrar_uma_candidatura_com_dados_invalidos" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="Terceira-VA-ES" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -261,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber.Scenario: Remover vaga com sucesso" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_Tentar_cadastrar_uma_candidatura_com_dados_invalidos" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_Cadastrar_uma_candidatura_com_dados_validos" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_Cadastrar_uma_vaga_com_dados_validos (1)" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_Tentar_editar_uma_vaga_com_dados_invalidos" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_Cadastrar_uma_vaga_com_dados_validos" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +290,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709480377340</updated>
-      <workItem from="1709480378559" duration="23724000" />
+      <workItem from="1709480378559" duration="24816000" />
     </task>
     <servers />
   </component>
@@ -295,6 +307,7 @@
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Cadastrar_uma_vaga_com_dados_validos.rcov" NAME="test_Cadastrar_uma_vaga_com_dados_validos Coverage Results" MODIFIED="1709504415990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Deletar_um_empregador_com_sucesso.rcov" NAME="test_Deletar_um_empregador_com_sucesso Coverage Results" MODIFIED="1709503921707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Cadastrar_um_empregador_com_dados_validos.rcov" NAME="test_Cadastrar_um_empregador_com_dados_validos Coverage Results" MODIFIED="1709503614152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
+    <SUITE FILE_PATH="coverage/Terceira_VA_ES@Scenario__Remover_vaga_com_sucesso.rcov" NAME="Scenario: Remover vaga com sucesso Coverage Results" MODIFIED="1709505706927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Cadastrar_uma_vaga_com_dados_validos__1_.rcov" NAME="test_Cadastrar_uma_vaga_com_dados_validos (1) Coverage Results" MODIFIED="1709504932368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Tentar_editar_uma_vaga_com_dados_invalidos.rcov" NAME="test_Tentar_editar_uma_vaga_com_dados_invalidos Coverage Results" MODIFIED="1709504724034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
   </component>

@@ -1,4 +1,5 @@
 class Empregador < ApplicationRecord
+  has_many :vagas, dependent: :destroy
 
   validates :nome, presence: true, length: { in: 5..50 }
   validates :nomeEmpresa, presence: true, length: { in: 5..80 }

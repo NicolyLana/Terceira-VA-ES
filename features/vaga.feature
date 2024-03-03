@@ -21,7 +21,7 @@ Feature: Vaga
     And eu estou na pagina de listagem de vagas
     And clico em "Detalhes da vaga" da vaga "Desenvolvedor Ruby"
     When eu clico no botao "Deletar"
-    Then vejo a mensagem "Vaga deletada com sucesso"
+    Then vejo a mensagem "Vaga deletada com sucesso."
 
    #Editar vaga
   Scenario: Editar vaga com sucesso

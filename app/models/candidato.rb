@@ -1,4 +1,6 @@
 class Candidato < ApplicationRecord
+  has_many :candidaturas, dependent: :destroy
+
   validates :nome, presence: true, length: { in: 5..40 }
   validates :email, presence: true, format: { with: URI::MailTo::EMAIL_REGEXP }
   validate :data_nascimento_valida

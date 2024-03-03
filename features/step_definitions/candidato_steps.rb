@@ -48,8 +48,5 @@ Given('clico em Detalhes do candidato do candidato cadastrado') do
   end
 end
 
-When('eu clico no botão {string}') do |botao|
-  click_button botao
-end
 
 
