@@ -4,14 +4,7 @@
     <list default="true" id="6912104a-af06-465a-9684-d36845eeda2a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/candidatos_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/candidatos_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/candidato.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/candidato.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/candidatura_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/candidatura_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/vaga_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/vaga_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/vaga.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/vaga.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,17 +287,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Cadastrar_um_candidato_com_dados_invalidos.rcov" NAME="test_Cadastrar_um_candidato_com_dados_invalidos Coverage Results" MODIFIED="1709506374469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Cadastrar_um_candidato_com_dados_validos.rcov" NAME="test_Cadastrar_um_candidato_com_dados_validos Coverage Results" MODIFIED="1709503282548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Tentar_cdastrar_um_empregador_com_dados_invalidos.rcov" NAME="test_Tentar_cdastrar_um_empregador_com_dados_invalidos Coverage Results" MODIFIED="1709503992639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
+    <SUITE FILE_PATH="coverage/Terceira_VA_ES@empregador_test_rb__1_.rcov" NAME="empregador_test.rb (1) Coverage Results" MODIFIED="1709519006143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Deletar_um_empregador_com_sucesso.rcov" NAME="test_Deletar_um_empregador_com_sucesso Coverage Results" MODIFIED="1709503921707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@candidato_test_rb.rcov" NAME="candidato_test.rb Coverage Results" MODIFIED="1709506361484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Cadastrar_uma_vaga_com_dados_validos__1_.rcov" NAME="test_Cadastrar_uma_vaga_com_dados_validos (1) Coverage Results" MODIFIED="1709504932368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Tentar_cadastrar_uma_candidatura_com_dados_invalidos.rcov" NAME="test_Tentar_cadastrar_uma_candidatura_com_dados_invalidos Coverage Results" MODIFIED="1709505012540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@Development__Terceira_VA_ES.rcov" NAME="Development: Terceira-VA-ES Coverage Results" MODIFIED="1709517810536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
+    <SUITE FILE_PATH="coverage/Terceira_VA_ES@vaga_test_rb__1_.rcov" NAME="vaga_test.rb (1) Coverage Results" MODIFIED="1709519016785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@empregador_test_rb.rcov" NAME="empregador_test.rb Coverage Results" MODIFIED="1709506401509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
+    <SUITE FILE_PATH="coverage/Terceira_VA_ES@candidato_test_rb__1_.rcov" NAME="candidato_test.rb (1) Coverage Results" MODIFIED="1709518945969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Cadastrar_uma_candidatura_com_dados_validos.rcov" NAME="test_Cadastrar_uma_candidatura_com_dados_validos Coverage Results" MODIFIED="1709504955234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
+    <SUITE FILE_PATH="coverage/Terceira_VA_ES@candidatura_test_rb__1_.rcov" NAME="candidatura_test.rb (1) Coverage Results" MODIFIED="1709518963423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Cadastrar_uma_vaga_com_dados_validos.rcov" NAME="test_Cadastrar_uma_vaga_com_dados_validos Coverage Results" MODIFIED="1709504415990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@vaga_test_rb.rcov" NAME="vaga_test.rb Coverage Results" MODIFIED="1709517800644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />
     <SUITE FILE_PATH="coverage/Terceira_VA_ES@test_Cadastrar_um_empregador_com_dados_validos.rcov" NAME="test_Cadastrar_um_empregador_com_dados_validos Coverage Results" MODIFIED="1709503614152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Terceira-VA-ES" />

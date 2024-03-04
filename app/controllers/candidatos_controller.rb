@@ -25,7 +25,7 @@ class CandidatosController < ApplicationController
 
     respond_to do |format|
       if @candidato.save
-        format.html { redirect_to sanitize_url(candidato_url(@candidato)), notice: "Candidato cadastrado com sucesso." }
+        format.html { redirect_to candidato_url(@candidato), notice: "Candidato cadastrado com sucesso." }
         format.json { render :show, status: :created, location: @candidato }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -62,14 +62,6 @@ class CandidatosController < ApplicationController
     def set_candidato
       @candidato = Candidato.find_by(id: params[:id])
     end
-
-  def sanitize_url(url)
-    # Use URI.parse to sanitize the URL
-    sanitized_url = URI.parse(url).to_s
-
-    # Return the sanitized URL
-    sanitized_url
-  end
 
     # Only allow a list of trusted parameters through.
     def candidato_params
