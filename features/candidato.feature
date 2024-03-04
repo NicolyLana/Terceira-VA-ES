@@ -5,7 +5,8 @@ Feature: Candidato
 
   #CRIAR CADASTRO
   Scenario: Criar cadastro com informacoes validas
-    Given que eu estou na pagina de cadastro de candidato
+    Given sou um usuario autenticado do sistema com email "admin@teste.com" e senha "123456"
+    And que eu estou na pagina de cadastro de candidato
     And prencho o campo nome com "Giselli Maria da Silva"
     And prencho o campo email com "giselli@teste.com"
     And prencho o campo cpf com "28821365018"
@@ -15,14 +16,16 @@ Feature: Candidato
     Then vejo a mensagem "Candidato cadastrado com sucesso."
 
   Scenario: Remover candidato com sucesso
-    Given que existe um candidato com nome: 'João Ribeiro', email: 'joao.silva@example.com', cpf: '05502727041', data de nascimento '22/02/2002', telefone: '81944444444'
+    Given sou um usuario autenticado do sistema com email "admin@teste.com" e senha "123456"
+    And que existe um candidato com nome: 'João Ribeiro', email: 'joao.silva@example.com', cpf: '05502727041', data de nascimento '22/02/2002', telefone: '81944444444'
     And eu estou na pagina de listagem de candidatos
     And clico em Detalhes do candidato do candidato cadastrado
     When eu clico no botao "Deletar"
     Then vejo a mensagem "Candidato deletado com sucesso."
 
   Scenario: Criar cadastro com informacoes invalidas
-    Given que eu estou na pagina de cadastro de candidato
+    Given sou um usuario autenticado do sistema com email "admin@teste.com" e senha "123456"
+    And que eu estou na pagina de cadastro de candidato
     And prencho o campo nome com "Gis"
     And prencho o campo email com "giselli@teste.com"
     And prencho o campo cpf com "28821365018"

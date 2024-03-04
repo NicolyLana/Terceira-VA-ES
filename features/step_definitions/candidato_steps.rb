@@ -48,5 +48,14 @@ Given('clico em Detalhes do candidato do candidato cadastrado') do
   end
 end
 
+Given('sou um usuario autenticado do sistema com email {string} e senha {string}') do |string, string2|
+  visit '/users/sign_up'
+  fill_in 'user_email', with: email
+  fill_in 'user_password', with: senha
+  fill_in 'user_password_confirmation', with: senha
+  click_link_or_button 'Sign up'
+  expect(page).to have_content('Welcome! You have signed up successfully.')
+end
+
 
 
