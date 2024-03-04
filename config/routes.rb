@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :candidaturas
   resources :empregadors
   resources :candidatos
@@ -7,5 +8,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  root "candidaturas#home"
+  root to: "home#index"
 end

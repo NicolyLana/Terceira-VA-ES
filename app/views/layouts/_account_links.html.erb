@@ -1,0 +1,20 @@
+<% if user_signed_in? %>
+  <h1>Home</h1>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-togle" type="button" id="dropdownMenuButton1" data-bs-toggle="">
+      <%= current_user.email %>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      <li>
+        <%= link_to "Editar Usuário", edit_user_registration_path, class: 'dropdown-item' %>
+      </li>
+      <hr class="dropdown-divider">
+      <li>
+        <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class: 'dropdown-item' %>
+      </li>
+    </ul>
+  </div>
+<% else %>
+  <%= link_to "Sign in", new_user_session_path, class: 'dropdown-item' %>
+  <%= link_to "Sign up", new_user_registration_path, class: 'dropdown-item' %>
+<% end %>
