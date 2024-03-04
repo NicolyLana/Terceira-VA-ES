@@ -36,8 +36,8 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: postgres
-  username: postgres
-  password: user123
-  host: localhost
+  database: project_production
+  username: project
+  password: Wx1CGvLufmBbXYcaJrHO9cC9wN3QaLJ9
+  host: dpg-cnil2den7f5s73condmg-a
   port: 5432
