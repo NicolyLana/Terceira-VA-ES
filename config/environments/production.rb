@@ -2,7 +2,7 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  config.hosts << "DPG-CNIL2DEN7F5S73Condmg-A"
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -87,7 +87,7 @@ Rails.application.configure do
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
-  config.logger = Logger.new(STDOUT)
+
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
