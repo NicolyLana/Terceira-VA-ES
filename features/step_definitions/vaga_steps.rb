@@ -84,8 +84,7 @@ Given('eu estou na pagina de listagem de vagas') do
 end
 
 
-When('clico em "Detalhes da vaga" da vaga {string}') do |vaga_nome|
-  vaga = Vaga.find_by(nome: vaga_nome)
+When('clico em Detalhes da vaga da vaga cadastrada') do
   within("#vagas") do
     find("a", text: "Detalhes da vaga", match: :first).click
   end

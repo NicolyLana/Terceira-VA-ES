@@ -8,8 +8,8 @@ class Candidato < ApplicationRecord
   validates :telefone, presence: true, format: { with: /\A\d{10,11}\z/, message: 'deve ter 10 ou 11 dígitos numéricos' }
 
   def data_nascimento_valida
-    if dataDeNascimento.present? && dataDeNascimento > Date.today
-      errors.add(:dataDeNascimento, "não pode ser no futuro")
-    end
+    if dataDeNascimento.present? && dataDeNascimento > Time.zone.today
+        errors.add(:dataDeNascimento, "não pode ser no futuro")
+      end
   end
 end

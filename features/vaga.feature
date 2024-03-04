@@ -19,7 +19,7 @@ Feature: Vaga
   Scenario: Remover vaga com sucesso
     Given que existe uma vaga de titulo: 'Desenvolvedor Ruby', descricao: 'Vaga para desenvolvedor Ruby', salario: '5000' para o empregador "Joao Silva"
     And eu estou na pagina de listagem de vagas
-    And clico em "Detalhes da vaga" da vaga "Desenvolvedor Ruby"
+    And clico em Detalhes da vaga da vaga cadastrada
     When eu clico no botao "Deletar"
     Then vejo a mensagem "Vaga deletada com sucesso."
 

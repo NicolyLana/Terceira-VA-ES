@@ -1,25 +1,28 @@
 # README
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2a438686f8c647c0a3529ded05be524e)](https://app.codacy.com/gh/NicolyLana/Terceira-VA-ES/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+## 🤵 INTEGRANTES
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Nicoly Lana
 
-Things you may want to cover:
+## 📕 SOBRE O PROJETO
 
-* Ruby version
+Projeto de implementação de um gerenciamento de candidaturas para a disciplina de Engenharia de Software ministrado pelo Professor Dr. Rodrigo Andrade, da UFAPE, referente ao período de 2023.1 como modo de avaliação para a 3ª Verificação de Aprendizagem. O projeto consiste em facilitar a administração de candidatos, empregadores, vagas disponiveis e registro de candidaturas.
 
-* System dependencies
+Link de acesso ao site: 
 
-* Configuration
+## 👩‍💻 TECNOLOGIAS UTILIZADAS
 
-* Database creation
+- Ruby
+    - versão 3.1.1
 
-* Database initialization
+- Rails
+    - Versão 7.0.2.2
 
-* How to run the test suite
+- RubyMine
+    - Versão 2021.3.2
 
-* Services (job queues, cache servers, search engines, etc.)
+- Codacy
 
-* Deployment instructions
+## ⚠️STATUS DO PROJETO
 
-* ...
+Em andamento.

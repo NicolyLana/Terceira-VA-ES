@@ -102,7 +102,7 @@ Given('que existe uma candidatura para a vaga {string} feita pelo candidato {str
   visit 'candidaturas/new'
   expect(page).to have_current_path('/candidaturas/new')
 
-  fill_in 'candidatura[mensagem]', :with => 'Tenho experiencia com ruby on rails'
+  fill_in 'candidatura[mensagem]', :with => mensagem
   select vaga, from: 'candidatura[vaga_id]'
   select candidato, from: 'candidatura[candidato_id]'
   select empregador, from: 'candidatura[empregador_id]'
