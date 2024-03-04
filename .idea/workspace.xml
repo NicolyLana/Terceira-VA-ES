@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6912104a-af06-465a-9684-d36845eeda2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/render.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +43,11 @@
   </component>
   <component name="ReaderModeSettings">
     <option name="showRenderedDocs" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicol\OneDrive\Documentos\Terceira-VA-ES\Terceira-VA-ES" />
+    </key>
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.candidato_test.rb (1)">
     <configuration name="Development: Terceira-VA-ES" type="RailsRunConfigurationType" factoryName="Rails">
