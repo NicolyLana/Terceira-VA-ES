@@ -37,7 +37,9 @@ production:
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   url: <%= ENV["DATABASE_URL"] %>
+  host: dpg-cnil2den7f5s73condmg-a
   database: project_production
   username: project
-  password: <%= ENV['DB_PASSWORD'] %>
+  password: Wx1CGvLufmBbXYcaJrHO9cC9wN3QaLJ9
+
 
