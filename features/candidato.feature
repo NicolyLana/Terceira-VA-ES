@@ -4,7 +4,7 @@ Feature: Candidato
   So that mantenho o cadastro atualizado e correto
 
   #CRIAR CADASTRO
-  Scenario: Criar cadastro com informacoes validas
+  Scenario: Criar cadastro de candidado com informacoes validas
     Given que eu estou na pagina de cadastro de candidato
     And prencho o campo nome com "Giselli Maria da Silva"
     And prencho o campo email com "giselli@teste.com"
@@ -21,7 +21,7 @@ Feature: Candidato
     When eu clico no botao "Deletar"
     Then vejo a mensagem "Candidato deletado com sucesso."
 
-  Scenario: Criar cadastro com informacoes invalidas
+  Scenario: Tentar criar um candidato com informacoes invalidas
     Given que eu estou na pagina de cadastro de candidato
     And prencho o campo nome com "Gis"
     And prencho o campo email com "giselli@teste.com"

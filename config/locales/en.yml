@@ -29,5 +29,8 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
+pt-BR:
+  errors:
+    messages:
+      too_short: "muito curto (mínimo é %{count} caracteres)"
+      blank: "não pode estar em branco"
