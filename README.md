@@ -11,7 +11,7 @@ Nicoly Lana
 Projeto de implementação de um gerenciamento de candidaturas para a disciplina de Engenharia de Software ministrado pelo Professor Dr. Rodrigo Andrade, da UFAPE, referente ao período de 2023.1 como modo de avaliação para a 3ª Verificação de Aprendizagem.
 O projeto consiste em facilitar a administração de candidatos, empregadores, vagas disponíveis e registro de candidaturas.
 
-Link de acesso ao site: 
+Link de acesso ao site: https://project-rssw.onrender.com
 
 ## 👩‍💻 TECNOLOGIAS UTILIZADAS
 
