@@ -24,7 +24,7 @@ Feature: gerenciar uma candidatura
     And seleciono o candidato "Phellipe"
     And seleciono o empregador "Paulo"
     And clico em "Salvar"
-    Then vejo a mensagem "Mensagem não pode estar em branco"
+    Then vejo a mensagem "Mensagem can't be blank"
 
   Scenario: Editar uma candidatura com sucesso
     Given que existe uma candidatura para a vaga "Dev senior ruby on rails" feita pelo candidato "Jose Mario", empregador "ze pitomba" e a mensagem de candidatura com "Tenho experiencia com ruby on rails"

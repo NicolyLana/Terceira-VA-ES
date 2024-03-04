@@ -29,6 +29,6 @@ Feature: Candidato
     And prencho o campo data de nascimento com "18/02/2025"
     And prencho o campo telefone com "81956652552"
     When clico em "Salvar"
-    Then vejo a mensagem "Nome é muito curto (mínimo é 5 caracter)"
+    Then vejo a mensagem "Nome is too short (minimum is 5 characters)"
     And vejo a mensagem "Datadenascimento não pode ser no futuro"
 
